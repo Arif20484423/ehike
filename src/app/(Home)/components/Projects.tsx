@@ -2,7 +2,7 @@
 import React, { useEffect } from "react";
 import { easeIn, stagger, useAnimate, useInView } from "framer-motion";
 
-// import { WobbleCard } from "../../../Components/ui/WobbleCard";
+import {WobbleCard} from '../../Components/WobbleCard';
 const Projects = () => {
   const [scope, animate] = useAnimate();
   const inView = useInView(scope, { once: true });
@@ -43,7 +43,7 @@ const Projects = () => {
 
         <div className="flex justify-center items-center flex-wrap mt-10 gap-10">
           <div className="anim_fadeup  max-w-[450px] min-w-[280px] ">
-            {/* <WobbleCard
+            <WobbleCard
               containerClassName="relative"
               className="relative "
               id="1"
@@ -79,7 +79,7 @@ const Projects = () => {
                   and drive conversions with confidence.
                 </p>
               </div>
-            </WobbleCard> */}
+            </WobbleCard>
           </div>
         </div>
         <br />
