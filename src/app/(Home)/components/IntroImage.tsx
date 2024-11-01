@@ -33,7 +33,7 @@ const IntroImage = () => {
           className=""
         />
 
-        {/* <div className="w-[90%] min-w-[280px] mx-auto mt-20">
+        <div className="w-[90%] min-w-[280px] mx-auto mt-20">
           <p className="text-[30px] font-bold anim_fadeup leading-[50px]">
             Tech That Impact
           </p>
@@ -47,7 +47,7 @@ const IntroImage = () => {
             convert. Let&apos;s create something extraordinary together! We
             offer two tiers of website solutions to suit your unique needs.
           </p>
-        </div> */}
+        </div>
         <br />
         {inView && <BorderBeam size={250} duration={12} delay={9} />}
       </div>
