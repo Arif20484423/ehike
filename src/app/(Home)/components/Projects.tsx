@@ -46,7 +46,7 @@ const Projects = () => {
             <WobbleCard
               containerClassName="relative"
               className="relative "
-              id="1"
+              
             >
               <div className="space-y-5 px-6 pt-2">
                 <h3 className="text-center font-heading text-2xl  leading-normal tracking-tight text-foreground lg:text-3xl">
@@ -66,7 +66,7 @@ const Projects = () => {
             <WobbleCard
               containerClassName="relative"
               className="relative "
-              id="2"
+              
             >
               <div className="space-y-5 px-6 pt-2">
                 <h3 className="text-center font-heading text-2xl  leading-normal tracking-tight text-foreground lg:text-3xl">
